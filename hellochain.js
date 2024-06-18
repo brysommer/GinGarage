@@ -14,7 +14,7 @@ const helloChain = () => {
                     { reply_markup:  
                         { inline_keyboard: [[
                             { text: 'Записатися на ремонт', callback_data: `book` }, 
-                            { text: 'Звязатися з менеджером', callback_data: `contact` }
+                            { text: 'Звязатися з розробником бота', callback_data: `contact` }
                         ]]} 
                     }
                 )
